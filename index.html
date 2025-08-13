@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cupcake Bliss</title>
+  <style>
+    body {font-family: Arial, sans-serif; margin:0; padding:0; background:#fff0f5;}
+    header {background:pink; padding:20px; text-align:center;}
+    nav a {margin:0 15px; text-decoration:none; font-weight:bold; color:#333;}
+    section {padding:20px; text-align:center;}
+    .grid {display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:15px;}
+    .card {background:white; padding:15px; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.1);}
+    footer {background:#333; color:white; text-align:center; padding:10px; margin-top:20px;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Cupcake Bliss</h1>
+    <nav>
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#order">Order</a>
+    </nav>
+  </header>
+
+  <section id="menu">
+    <h2>Our Cupcakes</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Vanilla Dream</h3>
+        <p>₹79 - Classic vanilla frosting.</p>
+      </div>
+      <div class="card">
+        <h3>Choco Fudge</h3>
+        <p>₹89 - Rich chocolate ganache.</p>
+      </div>
+      <div class="card">
+        <h3>Strawberry Swirl</h3>
+        <p>₹89 - Fresh berry delight.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We bake cupcakes fresh every day with love and premium ingredients.</p>
+  </section>
+
+  <section id="order">
+    <h2>Place Your Order</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required><br><br>
+      <input type="tel" placeholder="Phone Number" required><br><br>
+      <input type="text" placeholder="Cupcake Choice" required><br><br>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Cupcake Bliss</p>
+  </footer>
+</body>
+</html>
